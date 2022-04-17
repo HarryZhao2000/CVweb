@@ -1,7 +1,7 @@
 ---
 title: Haoran Zhao
 role: Undergraduate of Data Science
-avatar_filename: ds160_2.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include machine learning, deep learning and data
   analysis.
 interests:

@@ -25,8 +25,8 @@ feature:
   icon_pack: fas
   name: Statistics
 - description: 10%
-  icon: fa-python
-  icon_pack: fas
+  icon: python
+  icon_pack: fab
   name: python
 
 # Uncomment to use emoji icons.

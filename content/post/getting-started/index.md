@@ -10,12 +10,7 @@ summary: Recently, we studied a line chart in a report of China Daily, which was
   on society, its advantages and disadvantages as an information visualization,
   its issues on the aspect of analyzing information visualization, and how to
   improve it into a more readable visualization by combining cognitive theory,
-  etc. With the efforts of analyzing the background and building the connections
-  between real-world events and the visualization, we introduced the story of
-  this visualization. We fully replicated the original information visualization
-  by using Matplotlib, and then to make improvements, we applied the theory and
-  principles of information visualization to it by using our critical thinking.
-  Finally, we draw our own thoughts on the final visualization.
+  etc.
 draft: false
 featured: false
 authors:
@@ -39,12 +34,7 @@ image:
   preview_only: false
   filename: featured.jpg
 ---
-# Analysis and improvements for a visualization of Hong Kong post-secondary education
-
-* Haoran Zhao
-* Jiacheng Shen
-* Zhaoyuan Zhai
-* Yichen Wang
+Haoran Zhao, Jiacheng Shen, Zhaoyuan Zhai, Yichen Wang
 
 Recently, we studied a line chart in a report of China Daily, which was showing the trends of Hong Kong youth's participation in four post-secondary education programs from 2000-2017. After studying the background, we deeply analyzed this information visualization in various aspects, such as its impact on society, its advantages and disadvantages as an information visualization, its issues on the aspect of analyzing information visualization, and how to improve it into a more readable visualization by combining cognitive theory, etc. With the efforts of analyzing the background and building the connections between real-world events and the visualization, we introduced the story of this visualization. We fully replicated the original information visualization by using Matplotlib, and then to make improvements, we applied the theory and principles of information visualization to it by using our critical thinking. Finally, we draw our own thoughts on the final visualization.
 

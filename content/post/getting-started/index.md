@@ -23,7 +23,7 @@ authors:
   - Jiacheng Shen
   - Zhaoyuan Zhai
   - Yichen Wang
-lastmod: 2020-12-13T00:00:00Z
+lastmod: 2020-12-13T00:00:00.000Z
 tags:
   - Academic
   - Open Source
@@ -35,6 +35,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
+  filename: https://www.chinadailyhk.com/attachments/image/105/226/70/406446_117187/406446_117187_800_auto_jpg.jpg
 ---
 # Analysis and improvements for a visualization of Hong Kong post-secondary education
 

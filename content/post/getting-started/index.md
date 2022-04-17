@@ -31,11 +31,13 @@ categories: []
 projects:
   - Information Visualization
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
+  caption: "Image credit:
+    [**ChinaDaily**](https://www.chinadailyhk.com/articles/165/128/146/15353404\
+    88925.html)"
   focal_point: ""
   placement: 2
   preview_only: false
-  filename: https://www.chinadailyhk.com/attachments/image/105/226/70/406446_117187/406446_117187_800_auto_jpg.jpg
+  filename: featured.jpg
 ---
 # Analysis and improvements for a visualization of Hong Kong post-secondary education
 

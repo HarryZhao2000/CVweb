@@ -17,9 +17,9 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
+url_code: https://github.com/HarryZhao2000/Traffic-Prediction-for-New-York-GNN
+url_pdf: https://github.com/HarryZhao2000/Traffic-Prediction-for-New-York-GNN/blob/main/Traffic%20Prediction%20for%20New%20York%20City%20based%20on%20Graph%20Neural%20Network.pdf
+url_slides: https://1drv.ms/p/s!AgaWH8EXuP5eghMqjJB8RUQ13VeU?e=wL5VWQ
 url_video: ""
 
 # Slides (optional).
@@ -27,7 +27,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.

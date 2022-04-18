@@ -22,7 +22,7 @@ feature:
   name: python
 - description: 90%
   icon: database
-  icon_pack: fab
+  icon_pack: fas
   name: MySQL
 - description: 70%
   icon: r-project

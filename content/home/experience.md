@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Research Accountant
     company: Drexel University Metadata Research Center
-    company_url: ""
+    company_url: https://cci.drexel.edu/mrc/
     company_logo: Drexel_vertical_blue
     location: Pennsylvania
     date_start: '2021-01-15'
@@ -38,7 +38,7 @@ experience:
         
   - title: Team Leader for the Blockly Module 
     company: DSLab, Lanzhou University
-    company_url: ""
+    company_url: http://dslab.lzu.edu.cn/
     company_logo: badge-blue
     location: Gnasu, China
     date_start: '2021-05-01'
@@ -65,5 +65,5 @@ experience:
         * Assisted project manager to record project progress and monitor the progress in real time.
 
 design:
-  columns: '3'
+  columns: '2'
 ---

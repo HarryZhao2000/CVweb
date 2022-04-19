@@ -22,28 +22,47 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: Research Accountant
+    company: Drexel University Metadata Research Center
+    company_url: https://cci.drexel.edu/mrc/
+    company_logo: Drexel_vertical_blue
+    location: Pennsylvania
+    date_start: '2021-01-15'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Participated in the NSF Institute for Data Driven Dynamical Design project.
+        * Built efficient pipeline to collect scholarly literature in material science from various publishers.
+        * Participated in team meetings and collaborate on scholarly and scientific output.
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Team Leader for the Blockly Module 
+    company: DSLab, Lanzhou University
+    company_url: http://dslab.lzu.edu.cn/
+    company_logo: badge-blue
+    location: Gnasu, China
+    date_start: '2021-05-01'
+    date_end: '2022-3-01'
+    description: |2-
+        Responsibilities include:
+        
+        * Participated in the Google Open Source Blockly Teaching Cases Data Systems project.
+        * Determined the four curriculum data systems of the project.
+        * Simulated the phenomena in life by combining mathematics and computer simulation methods.
+
+  - title: Data Scientist Internship 
+    company: Hangzhou Yunge Data Technology Co., Ltd
+    company_url: ""
+    company_logo: ygsj
+    location: Zhejiang, China
+    date_start: '2019-08-01'
+    date_end: '2019-9-30'
+    description: |2-
+        Responsibilities include:
+        
+        * Participated in the development of Instant messenger-based roadside assistance system.
+        * Participated in project code testing and data maintenance related works.
+        * Assisted project manager to record project progress and monitor the progress in real time.
 
 design:
   columns: '2'

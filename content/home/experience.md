@@ -25,7 +25,7 @@ experience:
   - title: Research Assistant
     company: Drexel University Metadata Center
     company_url: ''
-    company_logo: org-gc
+    company_logo: org-drexel
     location: Philadelphia
     date_start: '2021-01-15'
     date_end: ''

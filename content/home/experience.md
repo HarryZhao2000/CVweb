@@ -39,7 +39,7 @@ experience:
   - title: Data Scientist Internship
     company: University X
     company_url: ''
-    company_logo: org-x
+    company_logo: org-lzu
     location: California
     date_start: '2016-01-01'
     date_end: '2020-12-31'
@@ -48,7 +48,7 @@ experience:
   - title: Data Scientist Internship
     company: University X
     company_url: ''
-    company_logo: org-x
+    company_logo: org-ygsj
     location: California
     date_start: '2016-01-01'
     date_end: '2020-12-31'

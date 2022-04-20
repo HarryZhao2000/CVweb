@@ -47,13 +47,12 @@ featured: true
 
 # Custom links (uncomment lines below)
 # links:
-- name: IOP Science
-  url: https://iopscience.iop.org/article/10.1088/1742-6596/2033/1/012085
+
 
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: https://iopscience.iop.org/article/10.1088/1742-6596/2033/1/012085
 url_project: ''
 url_slides: ''
 url_source: ''

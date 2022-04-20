@@ -43,12 +43,7 @@ experience:
     location: Gansu, China
     date_start: '2021-05-01'
     date_end: '2022-01-01'
-    description: |2-
-        Responsibilities include:
-        
-        * Participated in the Google Open Source Blockly Teaching Cases Data Systems project.
-        * Built efficient pipeline to collect scholarly literature in material science from various publishers.
-        * Simulated the phenomena in life by combining mathematics and computer simulation methods.
+    description: Taught electronic engineering and researched semiconductor physics.
 
   - title: Data Scientist Internship
     company: Hangzhou Yunge Data Technology Co., Ltd
@@ -57,12 +52,7 @@ experience:
     location: Zhejiang, China
     date_start: '2019-08-01'
     date_end: '2019-09-31'
-    description: |2-
-        Responsibilities include:
-        
-        * Participated in the development of Instant messenger-based roadside assistance system.
-        * Participated in project code testing and data maintenance related works.
-        * Assisted project manager to record project progress and monitor the progress in real time.
+    description: Taught electronic engineering and researched semiconductor physics.
 
 design:
   columns: '2'

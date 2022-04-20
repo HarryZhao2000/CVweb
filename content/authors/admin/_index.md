@@ -17,7 +17,7 @@ social:
     link: https://github.com/HarryZhao2000
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/haoranzhaods
+    link: https://www.linkedin.com/in/haoranzhaods
 organizations:
   - name: Drexel University
     url: https://www.drexel.edu/

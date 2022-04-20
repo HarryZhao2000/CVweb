@@ -32,24 +32,24 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Participated in the NSF Institute for Data Driven Dynamical Design project
-        * Built efficient pipeline to collect scholarly literature in material science from various publishers
-        * Participated in team meetings and collaborate on scholarly and scientific output
+        * Participated in the NSF Institute for Data Driven Dynamical Design project.
+        * Built efficient pipeline to collect scholarly literature in material science from various publishers.
+        * Participated in team meetings and collaborate on scholarly and scientific output.
         
   - title: Team Leader for the Blockly Module
-    company: DSLab Lanzhou University
+    company: DSLab, Lanzhou University
     company_url: ''
     company_logo: org-lzu
-    location: China
+    location: Gansu, China
     date_start: '2021-05-01'
     date_end: '2022-01-01'
     description: Taught electronic engineering and researched semiconductor physics.
 
   - title: Data Scientist Internship
-    company: Hangzhou Yunge Data Technology
+    company: Hangzhou Yunge Data Technology Co., Ltd
     company_url: ''
     company_logo: org-ygsj
-    location: China
+    location: Zhejiang, China
     date_start: '2019-08-01'
     date_end: '2019-09-31'
     description: Taught electronic engineering and researched semiconductor physics.

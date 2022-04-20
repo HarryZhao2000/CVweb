@@ -1,10 +1,10 @@
 ---
 title: Movie Recommendation based on Tweets
-summary: In this case, the fun of going out is lost, and people seek to watch movies at home to pass the time. At this time, the movie recommendation system becomes very meaningful. In the article "Predicting the Future with Social Media," the prediction of the future box office is significant, so we decided to make a movie recommendation project in this project.
+summary: During the COVID19, the movie recommendation system becomes very meaningful since people are struggling finding their favorite movie to spend time with. In the article "Predicting the Future with Social Media," the prediction of the future box office is significant, so we decided to make a movie recommendation project in this project.
 tags:
 - Recommendation System
 - Deep Learning
-date: "2022-01-27T00:00:00Z"
+date: "2021-04-20T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://github.com/HarryZhao2000/Tweet-Movie-Recommendation

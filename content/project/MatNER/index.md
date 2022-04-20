@@ -14,10 +14,6 @@ image:
   focal_point: Smart
 
 links:
-- icon: GitHub
-  icon_pack: fab
-  name: GitHub
-  url: https://github.com/HarryZhao2000/Traffic-Prediction-for-New-York-GNN
 url_code: https://github.com/HarryZhao2000/Mat-NER/blob/main/CNN_BiLSTM_CRF_sequence_labeling.ipynb
 url_pdf: ''
 url_slides: https://1drv.ms/p/s!AgaWH8EXuP5eghupDGTEFl9eo8Qp?e=mjv195

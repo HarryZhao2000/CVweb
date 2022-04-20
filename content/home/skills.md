@@ -29,7 +29,7 @@ feature:
   icon_pack: fab
   name: R
 - description: 60%
-  icon: square-c
+  icon: c
   icon_pack: fas
   name: C/C++
 - description: 60%
@@ -41,13 +41,18 @@ feature:
   icon_pack: fas
   name: Statistics
 - description: 100%
-  icon: brain-circuit
+  icon: terminal
   icon_pack: fas
   name: Machine Learning
 - description: 80%
-  icon: sensor-cloud
+  icon: cloud
   icon_pack: fas
   name: Cloud Computing
+- description: 80%
+  icon: code-branch
+  icon_pack: fas
+  name: Git/Bash
+
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"

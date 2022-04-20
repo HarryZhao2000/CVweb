@@ -42,7 +42,7 @@ experience:
     company_logo: org-lzu
     location: China
     date_start: '2021-03-01'
-    date_end: '2022-1-31'
+    date_end: '2022-01-01'
     description: Participated in the Google Open Source Blockly Teaching Cases Data Systems project.
 
   - title: Data Scientist Internship

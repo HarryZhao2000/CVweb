@@ -1,5 +1,5 @@
 ---
-title: "An example conference paper"
+title: "Computer dynamic model and time series prediction of air by LSTM recurrent neural network"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -47,8 +47,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 # links:
-# - name: Custom Link
-#   url: http://example.org
+- name: IOP Science
+  url: https://iopscience.iop.org/article/10.1088/1742-6596/2033/1/012085
 
 url_pdf: ''
 url_code: ''

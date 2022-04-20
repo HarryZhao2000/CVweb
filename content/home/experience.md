@@ -36,14 +36,19 @@ experience:
         * Built efficient pipeline to collect scholarly literature in material science from various publishers
         * Participated in team meetings and collaborate on scholarly and scientific output
         
-  - title: Data Scientist Internship
-    company: University X
+  - title: Team Leader for the Blockly Module
+    company: Lanzhou University DSLab
     company_url: ''
     company_logo: org-lzu
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: China
+    date_start: '2021-03-01'
+    date_end: '2022-1-31'
+    description: |2-
+        Responsibilities include:
+        
+        * Participated in the Google Open Source Blockly Teaching Cases Data Systems project.
+        * Determined the four curriculum data systems of the project.
+        * Simulated the phenomena in life by combining mathematics and computer simulation methods.
 
   - title: Data Scientist Internship
     company: University X

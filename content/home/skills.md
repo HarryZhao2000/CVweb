@@ -29,13 +29,9 @@ feature:
   icon_pack: fab
   name: R
 - description: 60%
-  icon: c
+  icon: file-code
   icon_pack: fas
   name: C/C++
-- icon: "c-solid"
-  icon_pack: "custom"
-  name: "C/C++"
-  description: "60%"
 - description: 60%
   icon: js
   icon_pack: fab

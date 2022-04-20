@@ -1,22 +1,22 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Traffic Prediction for New York City based on Graph Neural Network
+summary: Try to apply Graph Neural Network for the traffic prediction task for New York City using Uber Movement data .
 tags:
 - Deep Learning
-date: "2016-04-27T00:00:00Z"
+date: "2022-01-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: https://github.com/HarryZhao2000/Traffic-Prediction-for-New-York-GNN
 
 image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: GitHub
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: GitHub
+  url: https://github.com/HarryZhao2000/Traffic-Prediction-for-New-York-GNN
 url_code: https://github.com/HarryZhao2000/Traffic-Prediction-for-New-York-GNN
 url_pdf: https://github.com/HarryZhao2000/Traffic-Prediction-for-New-York-GNN/blob/main/Traffic%20Prediction%20for%20New%20York%20City%20based%20on%20Graph%20Neural%20Network.pdf
 url_slides: https://1drv.ms/p/s!AgaWH8EXuP5eghMqjJB8RUQ13VeU?e=wL5VWQ

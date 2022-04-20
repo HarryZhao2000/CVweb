@@ -32,9 +32,9 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Participated in the NSF Institute for Data Driven Dynamical Design project
+        * Built efficient pipeline to collect scholarly literature in material science from various publishers
+        * Participated in team meetings and collaborate on scholarly and scientific output
         
   - title: Data Scientist Internship
     company: University X

@@ -32,6 +32,10 @@ feature:
   icon: c
   icon_pack: fas
   name: C/C++
+- icon: "c-solid"
+  icon_pack: "custom"
+  name: "C/C++"
+  description: "60%"
 - description: 60%
   icon: js
   icon_pack: fab
@@ -41,7 +45,7 @@ feature:
   icon_pack: fas
   name: Statistics
 - description: 100%
-  icon: terminal
+  icon: code
   icon_pack: fas
   name: Machine Learning
 - description: 80%

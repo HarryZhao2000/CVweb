@@ -23,7 +23,6 @@ authors:
   - Zhaoyuan Zhai
 tags:
   - Cloud Computing
-  - Python
   - Machine Learning
 categories:
   - Course

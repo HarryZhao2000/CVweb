@@ -20,8 +20,7 @@ authors:
   - Yichen Wang
 lastmod: 2020-12-13T00:00:00.000Z
 tags:
-  - Academic
-  - Open Source
+  - Data Visualization
 categories: []
 projects:
   - Information Visualization

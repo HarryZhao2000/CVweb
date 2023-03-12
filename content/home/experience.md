@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Research Assistant
     company: Drexel University Metadata Center
-    company_url: ''
+    company_url: 'https://mrc.cci.drexel.edu/'
     company_logo: org-drexel
     location: Philadelphia
     date_start: '2021-01-15'
@@ -36,6 +36,21 @@ experience:
         * Built efficient pipeline to collect scholarly literature in material science from various publishers
         * Participated in team meetings and collaborate on scholarly and scientific output
         
+  - title: Data Engineering Co-Op
+    company: Vivid Seats Inc.
+    company_url: 'https://www.vividseats.com/'
+    company_logo: org-vividseats
+    location: Philadelphia (Remote)
+    date_start: '2022-09-19'
+    date_end: '2023-03-31'
+    description: |2-
+        Responsibilities include:
+        
+        * Participated in the design, development, and enhancement of the company’s data platform.
+        * Processed data requests submitted by different departments of the company.
+        * Participated in developing innovative solutions that gave Vivid Seats Inc. a competitive advantage and technology improvements on the data engineering team.
+
+
   - title: Team Leader for the Blockly Module
     company: Lanzhou University DSLab
     company_url: ''

@@ -23,10 +23,10 @@ organizations:
     url: https://www.drexel.edu/
 education:
   courses:
-    - course: Bachelor of Science in Information Science
+    - course: Bachelor of Science in Data Science
       institution: Drexel University
       year: 2023
-    - course: Bachelor of Science in Information Science
+    - course: Bachelor of Engineering in Computer Science
       institution: Lanzhou University
       year: 2021
 email: harry.zhao@drexel.edu

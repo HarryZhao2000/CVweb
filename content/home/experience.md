@@ -28,7 +28,7 @@ experience:
     company_logo: org-drexel
     location: Philadelphia
     date_start: '2021-01-15'
-    date_end: ''
+    date_end: '2023-06-31'
     description: |2-
         Responsibilities include:
         

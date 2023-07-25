@@ -23,17 +23,20 @@ organizations:
     url: https://www.drexel.edu/
 education:
   courses:
+    - course: Master of Science in Computer Science
+      institution: Northwestern University
+      year: 2025
     - course: Bachelor of Science in Data Science
       institution: Drexel University
       year: 2023
     - course: Bachelor of Engineering in Computer Science
       institution: Lanzhou University
       year: 2021
-email: harry.zhao@drexel.edu
+email: HaoranZhao2024@u.northwestern.edu
 superuser: true
 highlight_name: true
 ---
-Haoran Zhao is an undergraduate at Drexel University seeking a Bachelors of Science in Data Science and minor in Economics and Computer Science.\
+Haoran Zhao is a master student at Northwestern University majoring in Computer Science.\
 \
 He is incredibly insightful when confronting challenges and works immediately to solve them. He is always open minded to new opportunities and is more than able to address complex situations with strategy and confidence.
 

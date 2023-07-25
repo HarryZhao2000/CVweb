@@ -27,7 +27,7 @@ experience:
     company_url: 'https://mrc.cci.drexel.edu/'
     company_logo: org-drexel
     location: Philadelphia
-    date_start: '2021-01-15'
+    date_start: '2022-01-15'
     date_end: '2023-06-15'
     description: |2-
         Responsibilities include:

@@ -1,6 +1,6 @@
 ---
 title: Haoran Zhao
-role: Undergraduate of Data Science
+role: Graduate Student of Computer Science
 avatar_filename: avatar.jpg
 bio: My research interests include machine learning, deep learning and data
   analysis.
@@ -19,8 +19,8 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/haoranzhaods
 organizations:
-  - name: Drexel University
-    url: https://www.drexel.edu/
+  - name: Northwestern University
+    url: https://www.northwestern.edu/
 education:
   courses:
     - course: Master of Science in Computer Science

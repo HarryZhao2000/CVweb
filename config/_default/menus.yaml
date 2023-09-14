@@ -23,5 +23,5 @@ main:
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
-    url: uploads/Haoran-Zhao-Data-Science-Resume.pdf
+    url: uploads/Haoran_Zhao_ComputerScience_Northwestern.pdf
     weight: 60

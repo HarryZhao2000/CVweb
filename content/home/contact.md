@@ -25,13 +25,13 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: harry.zhao@drexel.edu
+  email: HaoranZhao2024@u.northwestern.edu
   phone: 445 208 8781
   address:
-    street: 3737 Lancaster Avenue
-    city: Philadelphia
-    region: PA
-    postcode: '19104'
+    street: 1720 Central St
+    city: Evanston
+    region: IL
+    postcode: '60201'
     country: United States
     country_code: US
 

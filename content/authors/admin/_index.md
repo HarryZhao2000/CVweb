@@ -40,4 +40,4 @@ Haoran Zhao is a master student at Northwestern University majoring in Computer 
 \
 He is incredibly insightful when confronting challenges and works immediately to solve them. He is always open minded to new opportunities and is more than able to address complex situations with strategy and confidence.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Haoran-Zhao-Data-Science-Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Haoran_Zhao_ComputerScience_Northwestern.pdf" "newtab" >}}resumé{{< /staticref >}}.

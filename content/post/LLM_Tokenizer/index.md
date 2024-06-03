@@ -36,46 +36,46 @@ It is the **first** step and the **last** step of text processing and modeling
 
 1. Firstly, we can define need to do the pre-tokenization, and have a token list. We assume that we have a list of integers in range 0..255 representing the tokens from a given text for convenience
 2. Then, we need to set the desired size of vocabulary as the hyper parameter. Here we use 267 as example
-	```
-	vocab_size = 267
-	num_merges = vocab_size - 256 # We need to merge vocab_size - 256 times
-	tokens_list = list(tokens)
-	```
-3. Then, we need to calculate the frequency of pairs of consecutive tokens for `num_merges` rounds, and merge the most frequent pair of each round as a new token. 
+```
+vocab_size = 267
+num_merges = vocab_size - 256 # We need to merge vocab_size - 256 times
+tokens_list = list(tokens)
+```
+1. Then, we need to calculate the frequency of pairs of consecutive tokens for `num_merges` rounds, and merge the most frequent pair of each round as a new token. 
 	1. Firstly we calculate the frequency, and find the most frequent pair of each round
-		```
-		def get_pair(tokens):
-			counts = {}
-			for pair in zip(tokens, tokens[1:]): # pairs of consecutive tokens
-				counts[pair] = counts.get(pair, 0) + 1
-			max_pair = max(counts, key=counts.get)
-			return max_pair, counts[max_pair]
-		```
+```
+def get_pair(tokens):
+    counts = {}
+    for pair in zip(tokens, tokens[1:]): # pairs of consecutive tokens
+        counts[pair] = counts.get(pair, 0) + 1
+    max_pair = max(counts, key=counts.get)
+    return max_pair, counts[max_pair]
+```
 	2. Then, we merge this pair as a new token
-		```
-		def merge(tokens_list, pair, new_token_id):
-			new_tokens_list = []
-			i = 0
-			while i < len(tokens_list):
-				if i < len(tokens_list) - 1 and tokens_list[i] == pair[0] and tokens_list[i+1] == pair[1]: # if found the pair
-					new_tokens_list.append(new_token_id)
-					i += 2 # skip the original tokens
-				else:
-					new_tokens_list.append(tokens_list[i])
-					i += 1
-			return new_tokens_list
-		```
-4. Finally, we can get the new_tokens_list via BPE
-	```
-	merges = {} # mapping from old token pair to new token
-	for i in range(num_merges):
-		pair, _ = get_pair(tokens_list)
-		new_token_id = 256 + i
-		print(f"merging {pair} into a new token {new_token_id}")
-		tokens_list = merge(tokens_list, pair, new_token_id)
-		merges[pair] = new_token_id
-	```
-5.  Thus, we now have a simple BPE tokenizer:
+```
+def merge(tokens_list, pair, new_token_id):
+    new_tokens_list = []
+    i = 0
+    while i < len(tokens_list):
+        if i < len(tokens_list) - 1 and tokens_list[i] == pair[0] and tokens_list[i+1] == pair[1]: # if found the pair
+            new_tokens_list.append(new_token_id)
+            i += 2 # skip the original tokens
+        else:
+            new_tokens_list.append(tokens_list[i])
+            i += 1
+    return new_tokens_list
+```
+2. Finally, we can get the new_tokens_list via BPE
+```
+merges = {} # mapping from old token pair to new token
+for i in range(num_merges):
+pair, _ = get_pair(tokens_list)
+new_token_id = 256 + i
+print(f"merging {pair} into a new token {new_token_id}")
+tokens_list = merge(tokens_list, pair, new_token_id)
+merges[pair] = new_token_id
+```
+3.  Thus, we now have a simple BPE tokenizer:
 ```
 class BPETokenizer:
     def __init__(self, vocab_size):
@@ -139,9 +139,11 @@ Similar to BPE, however:
 - Using `##` as prefix except the first subword.
 - Calculating frequency of each subword, rather than pairs
 - Using frequency to calculate pair score:
-	$$
-	Pair Score = \frac{\text{Frequency of pair}}{\text{Frequency of token 1} \times \text{Frequency of Token 2}}
-	$$
+
+$$
+Pair Score = \frac{\text{Frequency of pair}}{\text{Frequency of token 1} \times \text{Frequency of Token 2}}
+$$
+
 - Higher score means better matching between tokens, merge pair with highest score for `num_merges` rounds
 
 1. Firstly, we need to add `##` prefix to subwords except the first one of each tokens
@@ -179,8 +181,8 @@ def get_pair_scores(self, tokens):
 		pair_scores[pair] = freq / (self.vocab[pair[0]] + self.vocab[pair[1]]) 
 	return pair_scores
 ```
-3. Then, we merge this pair as a new token just like BPE
-4. During training, we need to keep eyes on handling the `##` prefix
+1. Then, we merge this pair as a new token just like BPE
+2. During training, we need to keep eyes on handling the `##` prefix
 ```
 tokens_list = encode(sentence)
 num_merges = vocab_size - len(set(tokens_list)
@@ -202,7 +204,7 @@ for i in range(num_merges):
 	vocab[new_token] = len(self.vocab)
 	merges[best_pair] = new_token
 ```
-5. Finally, we have a simple WordPiece Tokenizer:
+1. Finally, we have a simple WordPiece Tokenizer:
 ```
 class WordPieceTokenizer:
     def __init__(self, vocab_size):
@@ -411,6 +413,3 @@ print("Encoded Tokens:", encoded_tokens)
 **Cons:**
 - The training process is complex, requiring multiple iterations and probability calculations.
 - The initial vocabulary can be very large, leading to high computational cost.
-
-## Why BPE so popular currently
-[Source](https://www.linkedin.com/pulse/why-you-should-consider-byte-pair-encoding-bpe-your-nlp-nyamasege/)

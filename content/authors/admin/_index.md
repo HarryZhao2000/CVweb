@@ -8,6 +8,8 @@ interests:
   - Machine Learning
   - Deep Learning
   - Data Analysis
+  - LLMs
+  - AI4Science
 social:
   - icon: envelope
     icon_pack: fas
